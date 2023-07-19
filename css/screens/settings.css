@@ -1,0 +1,44 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+#small {
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.settings__setting__icon {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 120px;
+  bottom: 18px;
+}
